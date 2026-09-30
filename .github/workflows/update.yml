@@ -1,0 +1,75 @@
+name: update
+
+on:
+  schedule:
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install Playwright Chromium (fetch fallback)
+        run: npx playwright-core install --with-deps chromium
+
+      # Fetches the index, then only months missing from raw/.
+      # Exit code 2 = some month was blocked on every method (live + Wayback).
+      - name: Fetch missing bulletins
+        id: fetch
+        continue-on-error: true
+        run: npm run fetch
+
+      - name: Track consecutive blocked runs
+        id: track
+        run: |
+          n=$(cat state/fetch_failures 2>/dev/null || echo 0)
+          if [ "${{ steps.fetch.outcome }}" = "failure" ]; then n=$((n+1)); else n=0; fi
+          echo "$n" > state/fetch_failures
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      - name: Parse and rebuild outputs
+        run: npm run build
+
+      - name: Test
+        run: npm test
+
+      # Mondays (or manual runs): which USCIS chart applies this month.
+      # Processing-time snapshots are not collected (egov.uscis.gov is behind a Cloudflare challenge).
+      - name: USCIS filing chart (weekly)
+        continue-on-error: true
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then npm run uscis; fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A raw data state
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "data: update visa bulletin data $(date -u +%F)"
+          git push
+
+      - name: Open an issue if fetching was blocked 3 runs in a row
+        if: steps.track.outputs.count >= 3
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Fetching travel.state.gov has been blocked for 3+ consecutive runs"
+          existing=$(gh issue list --state open --search "\"$title\" in:title" --json title --jq ".[] | select(.title==\"$title\") | .title")
+          if [ -z "$existing" ]; then
+            gh issue create --title "$title" --body "The update workflow could not fetch one or more bulletins by any method (plain fetch, Playwright, Wayback Machine) in ${{ steps.track.outputs.count }} consecutive runs. See the latest run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi

@@ -1,0 +1,30 @@
+{
+  "name": "visa-bulletin-data",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx src/fetch.ts",
+    "parse": "tsx src/build.ts",
+    "build": "tsx src/build.ts",
+    "uscis": "tsx src/uscis.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc"
+  },
+  "license": "MIT",
+  "description": "Machine-readable US Visa Bulletin dataset (FY2016 onward)",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cheerio": "^1.2.0",
+    "playwright-core": "^1.63.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
