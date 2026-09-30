@@ -2,8 +2,12 @@ name: update
 
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
+  # A bulletin PDF uploaded by hand (raw/YYYY-MM.pdf) rebuilds the dataset right away.
+  push:
+    branches: [main]
+    paths: ['raw/**']
 
 permissions:
   contents: write
@@ -63,13 +67,23 @@ jobs:
           git commit -m "data: update visa bulletin data $(date -u +%F)"
           git push
 
-      - name: Open an issue if fetching was blocked 3 runs in a row
+      - name: Open an issue if a due bulletin could not be fetched 3 runs in a row
         if: steps.track.outputs.count >= 3
         env:
           GH_TOKEN: ${{ github.token }}
+          COUNT: ${{ steps.track.outputs.count }}
         run: |
-          title="Fetching travel.state.gov has been blocked for 3+ consecutive runs"
+          title="A visa bulletin is overdue: fetching is blocked"
           existing=$(gh issue list --state open --search "\"$title\" in:title" --json title --jq ".[] | select(.title==\"$title\") | .title")
           if [ -z "$existing" ]; then
-            gh issue create --title "$title" --body "The update workflow could not fetch one or more bulletins by any method (plain fetch, Playwright, Wayback Machine) in ${{ steps.track.outputs.count }} consecutive runs. See the latest run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            {
+              echo "travel.state.gov blocked every automated route (plain fetch, Playwright, Wayback Machine, PDF) for $COUNT runs in a row."
+              echo
+              echo "To add it by hand: open the PDF link below in a normal browser, then upload the file to this repo under the listed name (Add file > Upload files, works from a phone). The upload rebuilds the dataset within minutes; close this issue after."
+              echo
+              cat missing.md 2>/dev/null
+              echo
+              echo "Latest run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            } > issue.md
+            gh issue create --title "$title" --body-file issue.md
           fi

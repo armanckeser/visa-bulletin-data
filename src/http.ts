@@ -142,6 +142,11 @@ export async function fetchPdf(url: string): Promise<Buffer> {
     const live = await curlBytes(url);
     if (live.status === 200 && isPdf(live.body)) return live.body;
   } catch {}
+  // Ask the Wayback Machine to capture it now; its crawler sometimes gets through when we cannot.
+  // Best effort: the capture, if any, shows up in the CDX index on this or a later run.
+  try {
+    await curlGet(`https://web.archive.org/save/${url}`);
+  } catch {}
   const cdx = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url.replace(/^https?:\/\//, ''))}&output=txt&fl=timestamp&filter=statuscode:200&limit=-8`;
   let stamps: string[] = [];
   for (let attempt = 0; attempt < 3 && !stamps.length; attempt++) {

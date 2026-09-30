@@ -45,6 +45,13 @@ async function main() {
   const have = (m: string) => fs.existsSync(path.join(RAW, `${m}.html`)) || fs.existsSync(path.join(RAW, `${m}.pdf`));
   const missing = wanted.filter((m) => !have(m));
   console.log(`month source: ${source}; ${wanted.length} wanted, ${missing.length} missing`);
+  // A bulletin normally appears mid-month for the next month, so from the 20th on a missing next month
+  // is overdue (the fetch is failing) rather than unpublished.
+  const ymOf = (d: Date) => `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+  const thisMonth = ymOf(now);
+  const nextMonth = ymOf(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1)));
+  const overdue = (ym: string) => ym <= thisMonth || (ym === nextMonth && now.getUTCDate() >= 20);
+  const overdueMissing: string[] = [];
   let blocked = 0, notFound = 0, fetched = 0;
   let liveOk = true;
   if (process.env.REVERSE === '1') missing.reverse();
@@ -81,10 +88,11 @@ async function main() {
         } catch (e) {
           if (!(e instanceof BlockedError)) console.log(`${ym}: PDF unusable: ${(e as Error).message}`);
         }
-        if (probe.has(ym)) console.log(`${ym}: not available (probe, probably unpublished)`);
+        if (probe.has(ym) && !overdue(ym)) console.log(`${ym}: not available (probe, probably unpublished)`);
         else {
           blocked++;
-          console.log(`${ym}: BLOCKED (live + wayback)`);
+          overdueMissing.push(ym);
+          console.log(`${ym}: BLOCKED (live + wayback + PDF)`);
         }
         await sleep(DELAY_MS);
         continue;
@@ -102,6 +110,11 @@ async function main() {
   }
   await closeBrowser();
   console.log(`fetched=${fetched} notFound=${notFound} blocked=${blocked}`);
+  // Read by the workflow for the "blocked" issue body (not committed).
+  fs.writeFileSync(
+    'missing.md',
+    overdueMissing.map((ym) => `- \`raw/${ym}.pdf\` from ${bulletinPdfUrl(ym)}`).join('\n') + '\n',
+  );
   if (blocked > 0) process.exitCode = 2;
 }
 main();
