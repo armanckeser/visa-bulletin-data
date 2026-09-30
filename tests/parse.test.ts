@@ -45,3 +45,11 @@ test('every raw bulletin parses with no duplicate keys', () => {
     assert.ok(rows.some((r) => r.chart === 'final_action' && r.kind === 'family'), `${ym} missing family FAD`);
   }
 });
+
+test('the PDF edition parses to the same rows as the web bulletin (2026-06)', async () => {
+  const { pdfToHtml } = await import('../src/pdf.js');
+  const fromPdf = parseBulletin(await pdfToHtml(new Uint8Array(fs.readFileSync('tests/fixtures/2026-06.pdf'))), '2026-06');
+  const fromHtml = parseBulletin(fs.readFileSync('raw/2026-06.html', 'utf8'), '2026-06');
+  assert.equal(fromPdf.length, 150);
+  assert.deepEqual(fromPdf, fromHtml);
+});

@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/armanckeser/visa-bulletin-data/main/data/uscis
 | `data/latest.json` | `{bulletin, rows, previous_bulletin, changes}`. `changes` lists every cell that moved versus the previous bulletin (`from`/`to` are an ISO date, `C` or `U`; `delta_days` is set when both are dates). `published_at` is omitted: the bulletin pages do not expose a reliable publication timestamp. |
 | `data/visa_bulletin.sqlite` | Table `visa_bulletin` with the same columns, indexed on `(category, country, chart, bulletin)`. |
 | `data/uscis_chart.json` | `{ "YYYY-MM": {"family": ..., "employment": ...} }`: which chart USCIS designated for adjustment-of-status filing. Recorded going forward only (the USCIS page shows just the current month), so there is no backfill. |
-| `raw/YYYY-MM.html` | The cached original bulletin pages. The parser reads only these, so builds are offline and deterministic. |
+| `raw/YYYY-MM.html` / `.pdf` | The cached original bulletins. A month is stored as the PDF edition only when the web page could not be retrieved. The parser reads only these, so builds are offline and deterministic. |
 
 ## Schema
 
@@ -52,7 +52,7 @@ Columns: `bulletin`, `chart`, `kind`, `category`, `country`, `status`, `date`.
 
 ## How it works
 
-`src/fetch.ts` collects bulletin links from the travel.state.gov index and downloads only months missing from `raw/`, sequentially with a 2 s delay. travel.state.gov sits behind Cloudflare, so it tries plain `fetch`, then Playwright, then the Wayback Machine. `src/parse.ts` finds the four tables by their header and the text just before them (never by position) and maps columns and row labels by name. An unknown header, row label or cell is a hard error rather than a silent guess. `src/build.ts` writes all outputs.
+`src/fetch.ts` collects bulletin links from the travel.state.gov index and downloads only months missing from `raw/`, sequentially with a 2 s delay. travel.state.gov sits behind Cloudflare, so it tries plain `fetch`, then Playwright, then the Wayback Machine, then the PDF edition (live or archived). `src/pdf.ts` rebuilds the PDF tables from positioned text and hands them to the same parser; a test checks that the 2026-06 PDF parses to exactly the same rows as its web page. `src/parse.ts` finds the four tables by their header and the text just before them (never by position) and maps columns and row labels by name. An unknown header, row label or cell is a hard error rather than a silent guess. `src/build.ts` writes all outputs.
 
 ```
 npm ci

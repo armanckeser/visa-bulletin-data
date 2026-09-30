@@ -33,3 +33,10 @@ export function monthsFromIndex(html: string): string[] {
   }
   return [...set].sort();
 }
+
+/** The PDF edition, e.g. .../Bulletins/visabulletin_October2026.pdf (current naming; older years vary). */
+export function bulletinPdfUrl(ym: string): string {
+  const [y, m] = ym.split('-').map(Number);
+  const name = MONTH_NAMES[m - 1];
+  return `https://travel.state.gov/content/dam/visas/Bulletins/visabulletin_${name[0].toUpperCase()}${name.slice(1)}${y}.pdf`;
+}

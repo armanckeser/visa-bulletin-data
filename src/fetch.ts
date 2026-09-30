@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { INDEX_URL, FIRST_BULLETIN, bulletinUrl, monthsBetween, monthsFromIndex } from './months.js';
-import { fetchLive, fetchWayback, closeBrowser, sleep, BlockedError } from './http.js';
+import { INDEX_URL, FIRST_BULLETIN, bulletinUrl, bulletinPdfUrl, monthsBetween, monthsFromIndex } from './months.js';
+import { fetchLive, fetchWayback, fetchPdf, closeBrowser, sleep, BlockedError } from './http.js';
+import { pdfToHtml } from './pdf.js';
+import { parseBulletin } from './parse.js';
 
 const RAW = path.resolve('raw');
 const DELAY_MS = 2000;
@@ -40,13 +42,14 @@ async function main() {
   const knownMax = months[months.length - 1];
   const probe = new Set(monthsBetween(knownMax, `${nx.getFullYear()}-${String(nx.getMonth() + 1).padStart(2, '0')}`).slice(1));
   const wanted = [...new Set([...months, ...probe])].sort().filter((m) => m >= FIRST_BULLETIN);
-  const missing = wanted.filter((m) => !fs.existsSync(path.join(RAW, `${m}.html`)));
+  const have = (m: string) => fs.existsSync(path.join(RAW, `${m}.html`)) || fs.existsSync(path.join(RAW, `${m}.pdf`));
+  const missing = wanted.filter((m) => !have(m));
   console.log(`month source: ${source}; ${wanted.length} wanted, ${missing.length} missing`);
   let blocked = 0, notFound = 0, fetched = 0;
   let liveOk = true;
   if (process.env.REVERSE === '1') missing.reverse();
   for (const ym of missing) {
-    if (fs.existsSync(path.join(RAW, `${ym}.html`))) continue; // another worker got it
+    if (have(ym)) continue; // another worker got it
     const url = bulletinUrl(ym);
     let html: string | undefined;
     if (liveOk) {
@@ -66,6 +69,18 @@ async function main() {
       try {
         html = await fetchWayback(url);
       } catch {
+        // Last resort: the PDF edition (its /content/dam path is archived more often than the HTML page).
+        try {
+          const pdf = await fetchPdf(bulletinPdfUrl(ym));
+          parseBulletin(await pdfToHtml(new Uint8Array(pdf)), ym); // throws unless it parses cleanly
+          fs.writeFileSync(path.join(RAW, `${ym}.pdf`), pdf);
+          fetched++;
+          console.log(`${ym}: saved PDF (${pdf.length} bytes)`);
+          await sleep(DELAY_MS);
+          continue;
+        } catch (e) {
+          if (!(e instanceof BlockedError)) console.log(`${ym}: PDF unusable: ${(e as Error).message}`);
+        }
         if (probe.has(ym)) console.log(`${ym}: not available (probe, probably unpublished)`);
         else {
           blocked++;

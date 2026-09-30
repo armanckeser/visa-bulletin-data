@@ -1,26 +1,26 @@
 {
-  "bulletin": "2026-07",
+  "bulletin": "2026-10",
   "rows": [
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB1",
       "country": "CN",
       "status": "date",
-      "date": "2023-12-01"
+      "date": "2024-07-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB1",
       "country": "IN",
       "status": "date",
-      "date": "2023-12-01"
+      "date": "2024-07-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB1",
@@ -29,7 +29,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB1",
@@ -38,7 +38,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB1",
@@ -47,16 +47,16 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB2",
       "country": "CN",
       "status": "date",
-      "date": "2022-01-01"
+      "date": "2023-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB2",
@@ -65,43 +65,43 @@
       "date": "2015-01-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB2",
       "country": "MX",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2026-03-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB2",
       "country": "PH",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2026-03-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB2",
       "country": "ROW",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2026-03-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB3",
       "country": "CN",
       "status": "date",
-      "date": "2022-01-01"
+      "date": "2024-04-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB3",
@@ -110,16 +110,16 @@
       "date": "2015-01-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB3",
       "country": "MX",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2024-08-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB3",
@@ -128,106 +128,106 @@
       "date": "2024-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB3",
       "country": "ROW",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2024-08-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4",
       "country": "CN",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4",
       "country": "IN",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4",
       "country": "MX",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4",
       "country": "PH",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4",
       "country": "ROW",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "CN",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "IN",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "MX",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "PH",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "ROW",
       "status": "date",
-      "date": "2023-01-01"
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -236,7 +236,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -245,7 +245,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -254,7 +254,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -263,7 +263,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -272,7 +272,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -281,7 +281,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -290,7 +290,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -299,7 +299,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -308,7 +308,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -317,7 +317,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -326,7 +326,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -335,7 +335,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -344,7 +344,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -353,7 +353,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -362,16 +362,16 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
       "country": "CN",
       "status": "date",
-      "date": "2017-03-01"
+      "date": "2021-03-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -380,7 +380,7 @@
       "date": "2024-05-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -389,7 +389,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -398,7 +398,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -407,16 +407,16 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EW",
       "country": "CN",
       "status": "date",
-      "date": "2019-10-01"
+      "date": "2020-10-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EW",
@@ -425,61 +425,61 @@
       "date": "2015-01-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EW",
       "country": "MX",
       "status": "date",
-      "date": "2022-08-01"
+      "date": "2022-06-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EW",
       "country": "PH",
       "status": "date",
-      "date": "2022-08-01"
+      "date": "2022-06-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EW",
       "country": "ROW",
       "status": "date",
-      "date": "2022-08-01"
+      "date": "2022-06-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F1",
       "country": "CN",
       "status": "date",
-      "date": "2019-01-01"
+      "date": "2020-02-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F1",
       "country": "IN",
       "status": "date",
-      "date": "2019-01-01"
+      "date": "2020-02-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F1",
       "country": "MX",
       "status": "date",
-      "date": "2008-10-01"
+      "date": "2008-12-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F1",
@@ -488,16 +488,16 @@
       "date": "2015-04-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F1",
       "country": "ROW",
       "status": "date",
-      "date": "2019-01-01"
+      "date": "2020-02-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2A",
@@ -506,7 +506,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2A",
@@ -515,7 +515,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2A",
@@ -524,7 +524,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2A",
@@ -533,7 +533,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2A",
@@ -542,115 +542,115 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2B",
       "country": "CN",
       "status": "date",
-      "date": "2018-06-08"
+      "date": "2019-09-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2B",
       "country": "IN",
       "status": "date",
-      "date": "2018-06-08"
+      "date": "2019-09-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2B",
       "country": "MX",
       "status": "date",
-      "date": "2010-05-15"
+      "date": "2011-03-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2B",
       "country": "PH",
       "status": "date",
-      "date": "2013-10-01"
+      "date": "2014-10-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F2B",
       "country": "ROW",
       "status": "date",
-      "date": "2018-06-08"
+      "date": "2019-09-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F3",
       "country": "CN",
       "status": "date",
-      "date": "2012-12-08"
+      "date": "2014-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F3",
       "country": "IN",
       "status": "date",
-      "date": "2012-12-08"
+      "date": "2014-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F3",
       "country": "MX",
       "status": "date",
-      "date": "2001-07-15"
+      "date": "2002-12-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F3",
       "country": "PH",
       "status": "date",
-      "date": "2006-08-08"
+      "date": "2006-10-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F3",
       "country": "ROW",
       "status": "date",
-      "date": "2012-12-08"
+      "date": "2014-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F4",
       "country": "CN",
       "status": "date",
-      "date": "2010-03-01"
+      "date": "2011-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F4",
       "country": "IN",
       "status": "date",
-      "date": "2006-12-15"
+      "date": "2007-02-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F4",
@@ -659,43 +659,43 @@
       "date": "2001-04-30"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F4",
       "country": "PH",
       "status": "date",
-      "date": "2008-03-22"
+      "date": "2009-03-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "dates_for_filing",
       "kind": "family",
       "category": "F4",
       "country": "ROW",
       "status": "date",
-      "date": "2010-03-01"
+      "date": "2011-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB1",
       "country": "CN",
       "status": "date",
-      "date": "2023-06-01"
+      "date": "2023-07-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB1",
       "country": "IN",
       "status": "date",
-      "date": "2022-10-15"
+      "date": "2023-02-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB1",
@@ -704,7 +704,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB1",
@@ -713,7 +713,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB1",
@@ -722,61 +722,61 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB2",
       "country": "CN",
       "status": "date",
-      "date": "2021-09-01"
+      "date": "2021-10-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB2",
       "country": "IN",
-      "status": "unavailable",
-      "date": ""
+      "status": "date",
+      "date": "2013-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB2",
       "country": "MX",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB2",
       "country": "PH",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB2",
       "country": "ROW",
-      "status": "current",
-      "date": ""
+      "status": "date",
+      "date": "2025-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
       "country": "CN",
       "status": "date",
-      "date": "2021-12-22"
+      "date": "2022-01-08"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
@@ -785,124 +785,124 @@
       "date": "2014-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
       "country": "MX",
       "status": "date",
-      "date": "2024-08-01"
+      "date": "2024-05-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
       "country": "PH",
       "status": "date",
-      "date": "2023-08-01"
+      "date": "2023-08-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
       "country": "ROW",
       "status": "date",
-      "date": "2024-08-01"
+      "date": "2024-05-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4",
       "country": "CN",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4",
       "country": "IN",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4",
       "country": "MX",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4",
       "country": "PH",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4",
       "country": "ROW",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "CN",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "IN",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "MX",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "PH",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB4_RW",
       "country": "ROW",
       "status": "date",
-      "date": "2022-09-15"
+      "date": "2022-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -911,7 +911,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -920,7 +920,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -929,7 +929,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -938,7 +938,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_HIGH_UNEMPLOYMENT",
@@ -947,7 +947,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -956,7 +956,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -965,7 +965,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -974,7 +974,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -983,7 +983,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_INFRASTRUCTURE",
@@ -992,7 +992,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -1001,7 +1001,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -1010,7 +1010,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -1019,7 +1019,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -1028,7 +1028,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_RURAL",
@@ -1037,7 +1037,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -1046,16 +1046,16 @@
       "date": "2016-12-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
       "country": "IN",
-      "status": "unavailable",
-      "date": ""
+      "status": "date",
+      "date": "2023-12-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -1064,7 +1064,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -1073,7 +1073,7 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
@@ -1082,16 +1082,16 @@
       "date": ""
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "CN",
       "status": "date",
-      "date": "2019-04-01"
+      "date": "2019-10-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
@@ -1100,357 +1100,582 @@
       "date": "2014-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "MX",
       "status": "date",
-      "date": "2022-03-01"
+      "date": "2022-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "PH",
       "status": "date",
-      "date": "2021-12-01"
+      "date": "2022-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "ROW",
       "status": "date",
-      "date": "2022-03-01"
+      "date": "2022-01-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F1",
       "country": "CN",
       "status": "date",
-      "date": "2018-02-01"
+      "date": "2020-01-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F1",
       "country": "IN",
       "status": "date",
-      "date": "2018-02-01"
+      "date": "2020-01-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F1",
       "country": "MX",
       "status": "date",
-      "date": "2007-11-08"
+      "date": "2008-09-08"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F1",
       "country": "PH",
       "status": "date",
-      "date": "2013-05-01"
+      "date": "2013-11-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F1",
       "country": "ROW",
       "status": "date",
-      "date": "2018-02-01"
+      "date": "2020-01-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2A",
       "country": "CN",
       "status": "date",
-      "date": "2025-01-01"
+      "date": "2026-09-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2A",
       "country": "IN",
       "status": "date",
-      "date": "2025-01-01"
+      "date": "2026-09-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2A",
       "country": "MX",
       "status": "date",
-      "date": "2024-01-01"
+      "date": "2026-03-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2A",
       "country": "PH",
       "status": "date",
-      "date": "2025-01-01"
+      "date": "2026-09-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2A",
       "country": "ROW",
       "status": "date",
-      "date": "2025-01-01"
+      "date": "2026-09-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2B",
       "country": "CN",
       "status": "date",
-      "date": "2017-11-22"
+      "date": "2019-08-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2B",
       "country": "IN",
       "status": "date",
-      "date": "2017-11-22"
+      "date": "2019-08-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2B",
       "country": "MX",
       "status": "date",
-      "date": "2009-02-15"
+      "date": "2010-05-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2B",
       "country": "PH",
       "status": "date",
-      "date": "2013-05-15"
+      "date": "2013-10-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F2B",
       "country": "ROW",
       "status": "date",
-      "date": "2017-11-22"
+      "date": "2019-08-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F3",
       "country": "CN",
       "status": "date",
-      "date": "2012-04-15"
+      "date": "2014-10-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F3",
       "country": "IN",
       "status": "date",
-      "date": "2012-04-15"
+      "date": "2014-10-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F3",
       "country": "MX",
       "status": "date",
-      "date": "2001-06-01"
+      "date": "2001-07-01"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F3",
       "country": "PH",
       "status": "date",
-      "date": "2006-02-22"
+      "date": "2006-07-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F3",
       "country": "ROW",
       "status": "date",
-      "date": "2012-04-15"
+      "date": "2014-10-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
       "country": "CN",
       "status": "date",
-      "date": "2009-01-01"
+      "date": "2011-10-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
       "country": "IN",
       "status": "date",
-      "date": "2006-11-01"
+      "date": "2006-12-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
       "country": "MX",
       "status": "date",
-      "date": "2001-04-08"
+      "date": "2001-04-22"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
       "country": "PH",
       "status": "date",
-      "date": "2007-08-01"
+      "date": "2008-05-15"
     },
     {
-      "bulletin": "2026-07",
+      "bulletin": "2026-10",
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
       "country": "ROW",
       "status": "date",
-      "date": "2009-01-01"
+      "date": "2011-10-22"
     }
   ],
-  "previous_bulletin": "2026-06",
+  "previous_bulletin": "2026-09",
   "changes": [
     {
       "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F1",
-      "country": "CN",
-      "from": "2018-10-01",
-      "to": "2019-01-01",
-      "delta_days": 92
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F1",
-      "country": "IN",
-      "from": "2018-10-01",
-      "to": "2019-01-01",
-      "delta_days": 92
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F1",
-      "country": "ROW",
-      "from": "2018-10-01",
-      "to": "2019-01-01",
-      "delta_days": 92
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F2B",
-      "country": "CN",
-      "from": "2018-03-22",
-      "to": "2018-06-08",
-      "delta_days": 78
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F2B",
-      "country": "IN",
-      "from": "2018-03-22",
-      "to": "2018-06-08",
-      "delta_days": 78
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F2B",
-      "country": "ROW",
-      "from": "2018-03-22",
-      "to": "2018-06-08",
-      "delta_days": 78
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F4",
-      "country": "CN",
-      "from": "2009-12-22",
-      "to": "2010-03-01",
-      "delta_days": 69
-    },
-    {
-      "chart": "dates_for_filing",
-      "kind": "family",
-      "category": "F4",
-      "country": "ROW",
-      "from": "2009-12-22",
-      "to": "2010-03-01",
-      "delta_days": 69
-    },
-    {
-      "chart": "final_action",
       "kind": "employment",
       "category": "EB1",
       "country": "CN",
-      "from": "2023-04-01",
-      "to": "2023-06-01",
-      "delta_days": 61
+      "from": "2023-12-01",
+      "to": "2024-07-01",
+      "delta_days": 213
     },
     {
-      "chart": "final_action",
+      "chart": "dates_for_filing",
       "kind": "employment",
       "category": "EB1",
       "country": "IN",
-      "from": "2022-12-15",
-      "to": "2022-10-15",
+      "from": "2023-12-01",
+      "to": "2024-07-01",
+      "delta_days": 213
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "CN",
+      "from": "2022-01-01",
+      "to": "2023-01-01",
+      "delta_days": 365
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "MX",
+      "from": "C",
+      "to": "2026-03-15",
+      "delta_days": null
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "PH",
+      "from": "C",
+      "to": "2026-03-15",
+      "delta_days": null
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "ROW",
+      "from": "C",
+      "to": "2026-03-15",
+      "delta_days": null
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB3",
+      "country": "CN",
+      "from": "2022-01-08",
+      "to": "2024-04-01",
+      "delta_days": 814
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB3",
+      "country": "MX",
+      "from": "C",
+      "to": "2024-08-01",
+      "delta_days": null
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB3",
+      "country": "ROW",
+      "from": "C",
+      "to": "2024-08-01",
+      "delta_days": null
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4_RW",
+      "country": "CN",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4_RW",
+      "country": "IN",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4_RW",
+      "country": "MX",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4_RW",
+      "country": "PH",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4_RW",
+      "country": "ROW",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4",
+      "country": "CN",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4",
+      "country": "IN",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4",
+      "country": "MX",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4",
+      "country": "PH",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB4",
+      "country": "ROW",
+      "from": "2023-01-01",
+      "to": "2025-01-01",
+      "delta_days": 731
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EB5_UNRESERVED_I5_R5",
+      "country": "CN",
+      "from": "2017-03-01",
+      "to": "2021-03-01",
+      "delta_days": 1461
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EW",
+      "country": "CN",
+      "from": "2019-10-01",
+      "to": "2020-10-01",
+      "delta_days": 366
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EW",
+      "country": "MX",
+      "from": "2022-08-01",
+      "to": "2022-06-01",
       "delta_days": -61
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EW",
+      "country": "PH",
+      "from": "2022-08-01",
+      "to": "2022-06-01",
+      "delta_days": -61
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "employment",
+      "category": "EW",
+      "country": "ROW",
+      "from": "2022-08-01",
+      "to": "2022-06-01",
+      "delta_days": -61
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "family",
+      "category": "F2B",
+      "country": "MX",
+      "from": "2010-05-15",
+      "to": "2011-03-22",
+      "delta_days": 311
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "family",
+      "category": "F2B",
+      "country": "PH",
+      "from": "2013-10-01",
+      "to": "2014-10-01",
+      "delta_days": 365
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "family",
+      "category": "F3",
+      "country": "MX",
+      "from": "2001-07-15",
+      "to": "2002-12-01",
+      "delta_days": 504
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "family",
+      "category": "F3",
+      "country": "PH",
+      "from": "2006-08-08",
+      "to": "2006-10-22",
+      "delta_days": 75
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "family",
+      "category": "F4",
+      "country": "IN",
+      "from": "2006-12-15",
+      "to": "2007-02-01",
+      "delta_days": 48
+    },
+    {
+      "chart": "dates_for_filing",
+      "kind": "family",
+      "category": "F4",
+      "country": "PH",
+      "from": "2008-03-22",
+      "to": "2009-03-22",
+      "delta_days": 365
+    },
+    {
+      "chart": "final_action",
+      "kind": "employment",
+      "category": "EB1",
+      "country": "IN",
+      "from": "2022-10-15",
+      "to": "2023-02-01",
+      "delta_days": 109
+    },
+    {
+      "chart": "final_action",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "CN",
+      "from": "2021-09-01",
+      "to": "2021-10-01",
+      "delta_days": 30
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EB2",
       "country": "IN",
-      "from": "2013-09-01",
-      "to": "U",
+      "from": "U",
+      "to": "2013-11-01",
+      "delta_days": null
+    },
+    {
+      "chart": "final_action",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "MX",
+      "from": "C",
+      "to": "2025-01-01",
+      "delta_days": null
+    },
+    {
+      "chart": "final_action",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "PH",
+      "from": "C",
+      "to": "2025-01-01",
+      "delta_days": null
+    },
+    {
+      "chart": "final_action",
+      "kind": "employment",
+      "category": "EB2",
+      "country": "ROW",
+      "from": "C",
+      "to": "2025-01-01",
       "delta_days": null
     },
     {
@@ -1458,315 +1683,198 @@
       "kind": "employment",
       "category": "EB3",
       "country": "CN",
-      "from": "2021-08-01",
-      "to": "2021-12-22",
-      "delta_days": 143
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB3",
-      "country": "IN",
-      "from": "2013-12-15",
-      "to": "2014-01-01",
-      "delta_days": 17
+      "from": "2022-01-01",
+      "to": "2022-01-08",
+      "delta_days": 7
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
       "country": "MX",
-      "from": "2024-06-01",
-      "to": "2024-08-01",
-      "delta_days": 61
+      "from": "2024-09-01",
+      "to": "2024-05-15",
+      "delta_days": -109
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EB3",
-      "country": "ROW",
-      "from": "2024-06-01",
-      "to": "2024-08-01",
-      "delta_days": 61
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4_RW",
-      "country": "CN",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4_RW",
-      "country": "IN",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4_RW",
-      "country": "MX",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4_RW",
       "country": "PH",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
+      "from": "2023-08-01",
+      "to": "2023-08-15",
+      "delta_days": 14
     },
     {
       "chart": "final_action",
       "kind": "employment",
-      "category": "EB4_RW",
+      "category": "EB3",
       "country": "ROW",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4",
-      "country": "CN",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4",
-      "country": "IN",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4",
-      "country": "MX",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4",
-      "country": "PH",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB4",
-      "country": "ROW",
-      "from": "2022-07-15",
-      "to": "2022-09-15",
-      "delta_days": 62
-    },
-    {
-      "chart": "final_action",
-      "kind": "employment",
-      "category": "EB5_UNRESERVED_I5_R5",
-      "country": "CN",
-      "from": "2016-09-22",
-      "to": "2016-12-01",
-      "delta_days": 70
+      "from": "2024-09-01",
+      "to": "2024-05-15",
+      "delta_days": -109
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EB5_UNRESERVED_I5_R5",
       "country": "IN",
-      "from": "2022-05-01",
-      "to": "U",
+      "from": "U",
+      "to": "2023-12-01",
       "delta_days": null
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
-      "country": "IN",
-      "from": "2013-12-15",
-      "to": "2014-01-01",
-      "delta_days": 17
+      "country": "CN",
+      "from": "2019-05-01",
+      "to": "2019-10-01",
+      "delta_days": 153
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "MX",
-      "from": "2022-02-01",
-      "to": "2022-03-01",
-      "delta_days": 28
+      "from": "2022-04-01",
+      "to": "2022-01-01",
+      "delta_days": -90
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "PH",
-      "from": "2021-11-01",
-      "to": "2021-12-01",
-      "delta_days": 30
+      "from": "2021-12-01",
+      "to": "2022-01-01",
+      "delta_days": 31
     },
     {
       "chart": "final_action",
       "kind": "employment",
       "category": "EW",
       "country": "ROW",
-      "from": "2022-02-01",
-      "to": "2022-03-01",
-      "delta_days": 28
+      "from": "2022-04-01",
+      "to": "2022-01-01",
+      "delta_days": -90
     },
     {
       "chart": "final_action",
       "kind": "family",
       "category": "F1",
-      "country": "CN",
-      "from": "2017-09-01",
-      "to": "2018-02-01",
-      "delta_days": 153
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F1",
-      "country": "IN",
-      "from": "2017-09-01",
-      "to": "2018-02-01",
-      "delta_days": 153
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F1",
-      "country": "ROW",
-      "from": "2017-09-01",
-      "to": "2018-02-01",
-      "delta_days": 153
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F2B",
-      "country": "CN",
-      "from": "2017-09-22",
-      "to": "2017-11-22",
-      "delta_days": 61
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F2B",
-      "country": "IN",
-      "from": "2017-09-22",
-      "to": "2017-11-22",
-      "delta_days": 61
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F2B",
-      "country": "PH",
-      "from": "2013-04-08",
-      "to": "2013-05-15",
-      "delta_days": 37
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F2B",
-      "country": "ROW",
-      "from": "2017-09-22",
-      "to": "2017-11-22",
-      "delta_days": 61
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F3",
-      "country": "CN",
-      "from": "2012-02-15",
-      "to": "2012-04-15",
-      "delta_days": 60
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F3",
-      "country": "IN",
-      "from": "2012-02-15",
-      "to": "2012-04-15",
-      "delta_days": 60
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F3",
       "country": "MX",
-      "from": "2001-05-01",
-      "to": "2001-06-01",
+      "from": "2008-01-01",
+      "to": "2008-09-08",
+      "delta_days": 251
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F1",
+      "country": "PH",
+      "from": "2013-05-01",
+      "to": "2013-11-01",
+      "delta_days": 184
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F2A",
+      "country": "CN",
+      "from": "2026-08-22",
+      "to": "2026-09-22",
       "delta_days": 31
     },
     {
       "chart": "final_action",
       "kind": "family",
+      "category": "F2A",
+      "country": "IN",
+      "from": "2026-08-22",
+      "to": "2026-09-22",
+      "delta_days": 31
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F2A",
+      "country": "MX",
+      "from": "2025-08-22",
+      "to": "2026-03-22",
+      "delta_days": 212
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F2A",
+      "country": "PH",
+      "from": "2026-08-22",
+      "to": "2026-09-22",
+      "delta_days": 31
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F2A",
+      "country": "ROW",
+      "from": "2026-08-22",
+      "to": "2026-09-22",
+      "delta_days": 31
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F2B",
+      "country": "MX",
+      "from": "2009-02-15",
+      "to": "2010-05-15",
+      "delta_days": 454
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F2B",
+      "country": "PH",
+      "from": "2013-06-01",
+      "to": "2013-10-01",
+      "delta_days": 122
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
       "category": "F3",
       "country": "PH",
-      "from": "2005-11-22",
-      "to": "2006-02-22",
-      "delta_days": 92
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F3",
-      "country": "ROW",
-      "from": "2012-02-15",
-      "to": "2012-04-15",
-      "delta_days": 60
+      "from": "2006-02-22",
+      "to": "2006-07-22",
+      "delta_days": 150
     },
     {
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
-      "country": "CN",
-      "from": "2008-11-08",
-      "to": "2009-01-01",
-      "delta_days": 54
+      "country": "IN",
+      "from": "2006-11-01",
+      "to": "2006-12-15",
+      "delta_days": 44
+    },
+    {
+      "chart": "final_action",
+      "kind": "family",
+      "category": "F4",
+      "country": "MX",
+      "from": "2001-04-08",
+      "to": "2001-04-22",
+      "delta_days": 14
     },
     {
       "chart": "final_action",
       "kind": "family",
       "category": "F4",
       "country": "PH",
-      "from": "2007-07-15",
-      "to": "2007-08-01",
-      "delta_days": 17
-    },
-    {
-      "chart": "final_action",
-      "kind": "family",
-      "category": "F4",
-      "country": "ROW",
-      "from": "2008-11-08",
-      "to": "2009-01-01",
-      "delta_days": 54
+      "from": "2007-08-22",
+      "to": "2008-05-15",
+      "delta_days": 267
     }
   ]
 }

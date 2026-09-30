@@ -118,3 +118,50 @@ export async function fetchWayback(url: string): Promise<string> {
   }
   throw new BlockedError(`wayback has no usable snapshot: ${url}`);
 }
+
+function curlBytes(url: string): Promise<{ status: number; body: Buffer }> {
+  return new Promise((resolve, reject) => {
+    execFile(
+      'curl',
+      ['-sS', '-L', '-m', '90', '-A', UA, '-w', '\n%{http_code}', url],
+      { maxBuffer: 64 * 1024 * 1024, encoding: 'buffer' },
+      (err, stdout) => {
+        if (err) return reject(err);
+        const i = stdout.lastIndexOf(0x0a);
+        resolve({ status: Number(stdout.subarray(i + 1).toString()), body: stdout.subarray(0, i) });
+      },
+    );
+  });
+}
+
+const isPdf = (b: Buffer) => b.subarray(0, 5).toString('latin1') === '%PDF-';
+
+/** The PDF edition: live first, then the newest Wayback capture that is really a PDF. */
+export async function fetchPdf(url: string): Promise<Buffer> {
+  try {
+    const live = await curlBytes(url);
+    if (live.status === 200 && isPdf(live.body)) return live.body;
+  } catch {}
+  const cdx = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url.replace(/^https?:\/\//, ''))}&output=txt&fl=timestamp&filter=statuscode:200&limit=-8`;
+  let stamps: string[] = [];
+  for (let attempt = 0; attempt < 3 && !stamps.length; attempt++) {
+    try {
+      const r = await curlGet(cdx);
+      if (r.status === 200) stamps = r.body.trim().split(/\s+/).filter((s) => /^\d{14}$/.test(s)).reverse();
+      else await sleep(3000);
+    } catch {
+      await sleep(3000);
+    }
+  }
+  for (const ts of stamps) {
+    for (let attempt = 0; attempt < 4; attempt++) {
+      try {
+        const r = await curlBytes(`https://web.archive.org/web/${ts}id_/${url}`);
+        if (r.status === 200 && isPdf(r.body)) return r.body;
+        if (r.status !== 429 && r.status < 500) break;
+      } catch {}
+      await sleep(15000 * (attempt + 1)); // Wayback rate-limits bursts
+    }
+  }
+  throw new BlockedError(`no usable PDF: ${url}`);
+}

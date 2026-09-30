@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Database from 'better-sqlite3';
 import { parseBulletin, sortRows, type Row } from './parse.js';
+import { pdfToHtml } from './pdf.js';
 
 const RAW = path.resolve('raw');
 const DATA = path.resolve('data');
@@ -43,12 +44,17 @@ export function diffBulletins(prev: Row[], cur: Row[]): Change[] {
   return out;
 }
 
-export function buildAll(): { rows: Row[]; months: string[] } {
-  const files = fs.readdirSync(RAW).filter((f) => /^\d{4}-\d{2}\.html$/.test(f)).sort();
+export async function buildAll(): Promise<{ rows: Row[]; months: string[] }> {
+  // raw/YYYY-MM.html is the web bulletin; raw/YYYY-MM.pdf is the PDF edition, used only when the page was unobtainable.
+  const files = fs.readdirSync(RAW).filter((f) => /^\d{4}-\d{2}\.(html|pdf)$/.test(f)).sort();
   let rows: Row[] = [];
   for (const f of files) {
-    const ym = f.replace('.html', '');
-    rows.push(...parseBulletin(fs.readFileSync(path.join(RAW, f), 'utf8'), ym));
+    const ym = f.slice(0, 7);
+    if (f.endsWith('.pdf') && files.includes(`${ym}.html`)) continue;
+    const html = f.endsWith('.pdf')
+      ? await pdfToHtml(new Uint8Array(fs.readFileSync(path.join(RAW, f))))
+      : fs.readFileSync(path.join(RAW, f), 'utf8');
+    rows.push(...parseBulletin(html, ym));
   }
   rows = sortRows(rows);
   const months = [...new Set(rows.map((r) => r.bulletin))];
@@ -86,6 +92,6 @@ export function buildAll(): { rows: Row[]; months: string[] } {
 }
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` || process.argv[1]?.endsWith('build.ts')) {
-  const { rows, months } = buildAll();
+  const { rows, months } = await buildAll();
   console.log(`built ${rows.length} rows across ${months.length} bulletins (${months[0]}..${months[months.length - 1]})`);
 }
