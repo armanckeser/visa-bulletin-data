@@ -2,6 +2,8 @@
 
 A free, openly licensed, machine-readable dataset of the U.S. Department of State **Visa Bulletin**, with every monthly bulletin from **October 2015 (FY2016)** to the present, in CSV, JSON and SQLite. It updates itself daily through a GitHub Action.
 
+If this dataset is useful to you, starring the repo helps other people find it, and [armanckeser.com/subscribe](https://armanckeser.com/subscribe) has ways to hear about new releases.
+
 ## Why this exists
 
 There was no free, openly licensed, machine-readable Visa Bulletin dataset. The existing options are HTML-only or non-commercial, unlicensed, or cover a small slice (for example, employment final-action dates for a handful of countries). Bulletins are U.S. government works (17 U.S.C. section 105), so they are in the public domain, and this dataset should be too.
