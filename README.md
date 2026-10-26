@@ -2,6 +2,11 @@
 
 A free, openly licensed, machine-readable dataset of the U.S. Department of State **Visa Bulletin**, with every monthly bulletin from **October 2015 (FY2016)** to the present, in CSV, JSON and SQLite. It updates itself daily through a GitHub Action.
 
+<p align="center">
+  <img src="img/eb2-cutoffs.svg" alt="EB-2 final action cutoff dates for rest of world, China and India, every bulletin from October 2015 to October 2026" width="760" />
+  <br><sub>Drawn from <code>data/visa_bulletin.csv</code>: EB-2 final action cutoffs, every bulletin since FY2016.</sub>
+</p>
+
 If this dataset is useful to you, starring the repo helps other people find it, and [armanckeser.com/subscribe](https://armanckeser.com/subscribe) has ways to hear about new releases.
 
 ## Why this exists
