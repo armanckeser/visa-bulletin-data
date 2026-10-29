@@ -7,7 +7,7 @@ A free, openly licensed, machine-readable dataset of the U.S. Department of Stat
   <br><sub>Drawn from <code>data/visa_bulletin.csv</code>: EB-2 final action cutoffs, every bulletin since FY2016.</sub>
 </p>
 
-If this dataset is useful to you, starring the repo helps other people find it.
+If this dataset is useful to you, starring the repo helps other people find it. More apps from the same author are on [GitHub](https://github.com/armanckeser).
 
 ## Why this exists
 
@@ -73,19 +73,6 @@ npm test        # golden tests
 - Bulletins before October 2015 are out of scope (the modern four-table layout, with both Final Action and Dates for Filing charts, starts there).
 - **USCIS processing times are not collected.** egov.uscis.gov is behind a Cloudflare challenge that blocks automated access, so that feature was skipped.
 - Some bulletins in `raw/` were retrieved from the Wayback Machine because travel.state.gov blocks automated clients.
-
-## More apps
-
-Other apps from the same author:
-
-- **[Stars Organizer](https://github.com/armanckeser/github-stars-organizer)**: Sort your GitHub stars into Lists with tags, notes and ratings, and see which starred repos nobody maintains anymore.
-- **[Kumbara](https://github.com/armanckeser/kumbara)**: Budgeting app for bank transactions: one tap files every charge from a merchant.
-- **[leakwatch](https://github.com/armanckeser/leakwatch)**: Finds the program that is slowly breaking Windows and stops the leak without a restart.
-- **[Jellymeme](https://github.com/armanckeser/jellymeme)**: Find a scene in your Jellyfin library by describing the scene, then export a captioned GIF or clip.
-- **[Wishlist](https://github.com/armanckeser/wishlist)**: Save products from any store, get told when prices drop, and buy within a monthly allowance.
-- **[USCIS Tracker](https://github.com/armanckeser/uscis-tracker)**: Shows what changed on your myUSCIS cases since you last looked, all in your browser.
-- **[Four Quarters](https://github.com/armanckeser/four-quarters)**: Send someone a mini photo vending machine: each quarter they put in gives them one of your photos as a card.
-- **[Downstream](https://github.com/armanckeser/downstream)**: Shows which agent-opened pull request to review first, and Claude Code helps you review the change.
 
 ## License
 
