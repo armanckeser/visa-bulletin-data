@@ -7,7 +7,7 @@ A free, openly licensed, machine-readable dataset of the U.S. Department of Stat
   <br><sub>Drawn from <code>data/visa_bulletin.csv</code>: EB-2 final action cutoffs, every bulletin since FY2016.</sub>
 </p>
 
-If this dataset is useful to you, starring the repo helps other people find it, and [armanckeser.com/subscribe](https://armanckeser.com/subscribe) has ways to hear about new releases.
+If this dataset is useful to you, starring the repo helps other people find it. More apps from the same author are on [GitHub](https://github.com/armanckeser).
 
 ## Why this exists
 
